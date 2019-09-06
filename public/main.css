@@ -1,3 +1,37 @@
+h1, h2, h3, h4 {
+  font-family: 'Bitter', 'Times New Roman', serif;
+  text-align: center;
+}
+hr {
+  border: 1px solid black;
+}
+p {
+  color: black;
+  font-family: 'Noticia Text', 'Times New Roman', sans-serif;
+  text-align: center;
+}
+table {
+margin: 0 auto;
+border-collapse: collapse;
+  background: black;
+  color: white;
+}
+td {
+  font-family: 'Bitter', 'Times New Roman', serif;
+  font-size: 36px;
+  text-align: center;
+  width: 48px; height: 48px;
+}
+
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+  background: white;
+  color: black;
+}
+.app {
+  color: black;
+  font-family: 'Noticia Text', 'Times New Roman', sans-serif;
+  text-align: center;
+}
 .error {
   color: red;
   font-weight: bold;
@@ -7,4 +41,4 @@
   position: absolute;
   margin-left: 5px;
   width: 20px;
-}
+}  

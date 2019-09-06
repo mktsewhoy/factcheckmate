@@ -5,7 +5,7 @@ import {fetchPosts} from '../actions'
 const LoadSubreddit = ({children, dispatch}) => (
   <div>
     <button onClick={() => dispatch(fetchPosts('newzealand'))}>
-      Fetch Posts
+      Fetch Newest Posts
     </button>
     {children}
   </div>
